@@ -5,7 +5,7 @@
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
   "postCreateCommand": "bash setup.sh",
-  "postStartCommand": "bash start-and-open-beeline.sh",
+  "postStartCommand": "bash start-hive-bg.sh",
   "customizations": {
     "vscode": {
       "settings": {},
